@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="org.ravi.helloworld.HelloTest" duration-ms="16" started-at="2018-02-27T11:09:22Z" finished-at="2018-02-27T11:09:22Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="16" started-at="2018-02-27T11:09:22Z" finished-at="2018-02-27T11:09:22Z">
+    </test> <!-- Command line test -->
+  </suite> <!-- org.ravi.helloworld.HelloTest -->
+</testng-results>
