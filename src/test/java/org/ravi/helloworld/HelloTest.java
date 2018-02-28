@@ -19,10 +19,10 @@ public class HelloTest {
 	WebElement text;
 	@BeforeTest
 	public void beforeTest() {
-		System.setProperty("webdriver.gecko.driver", "resources\\geckodriver.exe");
-		driver = new FirefoxDriver();
-		//System.setProperty("webdriver.chrome.driver","resources\\chromedriver.exe");
-		//driver = new ChromeDriver();
+		//System.setProperty("webdriver.gecko.driver", "resources\\geckodriver.exe");
+		//driver = new FirefoxDriver();
+		System.setProperty("webdriver.chrome.driver","resources\\chromedriver.exe");
+		driver = new ChromeDriver();
 		driver.get("http://localhost:8091/HelloWorld.war/");
 		driver.manage().timeouts().implicitlyWait(1, TimeUnit.MINUTES);
 	}
